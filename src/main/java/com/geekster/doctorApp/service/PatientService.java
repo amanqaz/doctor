@@ -10,11 +10,12 @@ import com.geekster.doctorApp.model.AuthenticationToken;
 import com.geekster.doctorApp.model.Doctor;
 import com.geekster.doctorApp.model.Patient;
 import com.geekster.doctorApp.repository.IPatientRepo;
-import jakarta.xml.bind.DatatypeConverter;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import javax.xml.bind.DatatypeConverter;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;

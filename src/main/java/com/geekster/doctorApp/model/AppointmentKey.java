@@ -1,9 +1,10 @@
 package com.geekster.doctorApp.model;
 
-import jakarta.persistence.Embeddable;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 
+
+import javax.persistence.Embeddable;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
